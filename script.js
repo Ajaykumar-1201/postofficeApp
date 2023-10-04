@@ -27,7 +27,7 @@ getPublicIPAddress().then((ipAddress) => {
 async function getUserDetails() {
   try {
     const response = await fetch(
-      `https://ipinfo.io/${ip}?token=9b02eaea83291e`
+      `https://ipinfo.io/${ip}?token=3421874db97ed0`
     );
     data1 = await response.json();
 
