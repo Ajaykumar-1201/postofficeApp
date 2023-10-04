@@ -10,7 +10,6 @@
 .left {
   background: #000;
   flex: 1;
-  /* justify-content: center; */
 }
 
 .heading {
@@ -79,7 +78,6 @@
 
 .loc-info {
   display: flex;
-  /* justify-content: space-between; */
   padding-inline: 30px;
   font-family: Inter;
   font-size: 28px;
@@ -108,10 +106,6 @@
   align-items: center;
   background-color: #575a85;
   flex-direction: column;
-  /* height: 50vh;
-    width: 100%; */
-
-  /* margin-top:40px; */
   padding-bottom: 40px;
 }
 
@@ -155,7 +149,6 @@
   border-radius: 10px;
   margin-left: 20px;
   display: flex;
-  /* margin-bottom: 20px; */
 }
 
 .search {
@@ -187,7 +180,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  /* margin-left: 2.5rem; */
   background-color: #575a85;
   padding: 30px;
   border-radius: 10px;

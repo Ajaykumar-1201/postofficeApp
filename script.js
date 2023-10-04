@@ -65,7 +65,6 @@ function renderPage(userDetails, post) {
   const currentDate = new Date();
   const formattedDateTime = formatDateTime(currentDate);
 
-  //   console.log(post);
   const body = document.body;
   body.innerHTML = "";
   body.innerHTML = `<div class="head">
