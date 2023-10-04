@@ -29,7 +29,7 @@
 }
 
 .pic {
-  padding: 70px;
+  padding: 40px;
 }
 
 .right {
@@ -52,6 +52,7 @@
   font-family: Inter;
   font-size: 22px;
   font-weight: 400;
+  margin-bottom: 60px;
   
   
   border: 2px solid #b8bccc;
@@ -142,7 +143,8 @@
 }
 
 .search-con {
-  width: 190vh;
+    display: flex;
+  /* width: 100rem; */
   align-items: center;
   border: 3px solid #575a85;
   height: 8vh;
@@ -194,4 +196,19 @@
   font-family: Montserrat;
   background-color: #000;
   font-weight: 700;
+}
+
+
+@media (max-width: 900px) {
+    .card{
+        grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .loc-info{
+        flex-direction: column;
+    }
 }
