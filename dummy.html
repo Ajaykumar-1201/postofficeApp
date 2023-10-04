@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <p class="ip-address">IP Address : 1234</p>
+      <div class="loc-info">
+        <p class="a">Lat:</p>
+        <p class="b">City:</p>
+        <p class="c">Organisation:</p>
+      </div>
+      <div class="loc-info pad">
+        <p class="a">Long:</p>
+        <p class="b">Region:</p>
+        <p class="c">Hostname:</p>
+      </div>
+    </div>
+
+    <div class="map">
+      <p class="map-heading">Your Current Location</p>
+      <!-- <iframe
+          src=${url}
+          width="360"
+          height="270"
+          frameborder="0"
+          style="border:0;width: 90vw;
+          height: 65vh;margin-top:3rem; border-radius:1rem"></iframe> -->
+      <iframe
+        src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed"
+        frameborder="0"
+        style="
+          border: 0;
+          width: 90vw;
+          height: 65vh;
+          margin-top: 3rem;
+          border-radius: 1rem;
+        "
+      ></iframe>
+    </div>
+
+    <div class="more-info">
+      <p class="mf-heading">More Information About You</p>
+      <div class="info">
+        <p>Time Zone:</p>
+        <p>Date And Time</p>
+        <p>Pincode</p>
+        <p>Message: Number of pincode(s) found:</p>
+      </div>
+      <p class="mf-heading">Post Offices Near You</p>
+      <div class="search-con">
+        <img class="search" src="./assets/Vector.svg" />
+        <input
+          class="input-box"
+          id="search-text"
+          placeholder="Search By Name or Branch Office" type="text"
+        />
+      </div>
+    </div>
+  </body>
+</html>
